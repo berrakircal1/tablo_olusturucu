@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Table</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <table class="course-table">
+            <thead>
+                <tr id="ana-baslik-satiri" style="display: none;">
+                    <th colspan="100" class="header-cell">
+                        <div contenteditable="true" id="baslik" class="editable-header"></div>
+                    </th>
+                </tr>
+            </thead>
+            <tbody id="table-body">
+            </tbody>
+        </table>
+        <input type="number" id="hucre-sayisi-input" placeholder="Hücre Sayısı">
+        <button id="ana-baslik-dugme">Ana Başlık Ekle</button>
+        <button id="ikinci-satir-ekle-dugme">Gri Başlık Ekle</button>
+        <button id="ucuncu-satir-dugme">Mavi Kalın Satır Ekle</button>
+        <button id="yeni-satir-dugme">Beyaz Satır Ekle</button>
+        <button id="acik-gri-satir-dugme">Açık Gri Satır Ekle</button>
+        <button id="koyu-gri-satir-dugme">Koyu Gri Satır Ekle</button>
+        <button id="sutun-ekle-dugme">Sütun Ekle</button>
+        <button id="hucre-birlestir-dugme">Hücreleri Birleştir</button>
+        <button id="add-row-button">Yorum Satırı Ekle</button>
+        <button id="satir-sil-dugme">Satır Sil</button>
+        <button id="geri-al-dugme">Geri Al</button>
+        <button id="temizle-dugme">Tümünü Temizle</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
